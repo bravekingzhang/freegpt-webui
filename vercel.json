@@ -7,14 +7,5 @@
       "src": "run.py",
       "use": "@vercel/python"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "main.py"
-    }
-  ],
-  "env": {
-    "PANDORA_SERVER_LISTEN": "false"
-  }
+  ]
 }
